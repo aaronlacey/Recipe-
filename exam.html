@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Just Dessert</title>
+    <link rel="stylesheet" href="/exam.css">
+</head>
+
+<body>
+    <header>
+        <h1>Just<span>Dessert</span></h1>
+        <button id="Join" onclick="hide(this)">Join</button>
+        <button class="Login">Login</button>
+    </header>
+    <div class="Topsection">
+        <div class="Topline">
+            <input id="message" type="text" value="" placeholder="SEARCH">
+            <button id="myButton" onclick="alert(message.value)" type="button" value="GO">GO</button>
+            <img class="TopPic" src="/imgs/cake.png" alt="Cakes" height="50px" width="50px">
+            <img class="TopPic" src="/imgs/ice-cream.png" alt="Ice Cream" height="50px" width="50px">
+            <img class="TopPic" src="/imgs/cookie.png" alt="Cookies" height="50px" width="50px">
+            <img class="TopPic" src="/imgs/pie.png" alt="Pies" height="50px" width="50px">
+        </div>
+        <h4>Cakes</h4>
+        <h4>Ice Cream</h4>
+        <h4>Cookies</h4>
+        <h4>Pies</h4>
+    </div>
+    <div class="Recipe">
+        <h2>Recipe of the Day</h2>
+        <img class="Tart" src="/imgs/orange-tart.jpg" alt="orange-tart" height="300px" width="400px">
+        <p>Orange Tea Jelly Tart </p>
+        <div class="secondline">
+            <p id=heartLikes>68</p>
+            <button id=heartLikes onclick="addLike('heartLikes')"> 
+                <img src="/imgs/heart.png" alt="Heart" height="20px"width="20px">
+            </button>
+        </div>
+        <p>by: <a href="">yuripiano</a></p>
+        <a class="Seefull" href="">See Full Recipe</a>
+    </div>
+    <div class="RightSide">
+        <h3>Recommended for you:</h3>
+        <img class="rightpic" src="/imgs/macarons.jpg" alt="Macarons" height="175px" width="175px">
+        <p> Macarons <button class="heart" type="submit"><img src="/imgs/heart.png" alt="Heart" height="20px"
+                    width="20px"></button> 212</p>
+        <p>by <a href="">EmilieW</a></p>
+        <img class="rightpic" src="/imgs/creme-brulee.jpg" alt="Macarons" height="175px" width="175px">
+        <p>Creme-Brulee </p>
+            <button id=heartLikes onclick="addLike('heartLikes2')"> 
+            <img src="/imgs/heart.png" alt="Heart" height="20px"width="20px">
+            </button> 
+        <p id="heartLikes2">33</p> 
+        <p>by <a href="">MarisaG</a></p>
+    
+
+
+
+
+
+
+    </div>
+
+
+    </div>
+
+
+
+
+    <script src="/exam.js"></script>
+</body>
+
+</html>
